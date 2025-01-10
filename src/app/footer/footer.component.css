@@ -1,0 +1,48 @@
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  
+  .footer-container  .mat-list-item {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer-container > div {
+    flex: 1 1 200px; /* Flex-grow, flex-shrink, and flex-basis */
+    margin: 10px;
+  }
+  
+  .footer-container h3 {
+    margin-bottom: 10px;
+  }
+  
+  .footer-container p {
+    margin: 5px 0;
+  }
+  
+  .footer-container iframe {
+    border: 0;
+    width: 100%;
+    height: 300px;
+  }
+  
+  .mat-list-item {
+    display: flex;
+    flex-direction: column;
+  }
+  
+ .footer-container:mat-list-item {
+    overflow: visible;
+    height: fit-content;
+
+  }
+  .powered-by {
+    text-align: right;
+  }
+  .footer-container a{
+    text-decoration: none;
+    color: inherit;
+  }
