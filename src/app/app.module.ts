@@ -9,12 +9,15 @@ import { MatTableModule } from '@angular/material/table';
 import { MatHeaderCellDef, MatCellDef } from '@angular/material/table';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatPaginatorModule } from '@angular/material/paginator';
-import { FormsModule } from '@angular/forms'; // <-- Import FormsModule
+import { FormsModule } from '@angular/forms'; 
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatSelectModule } from '@angular/material/select';
 import { MatListModule } from '@angular/material/list';
 import { MatButtonModule } from '@angular/material/button';
+import { ReactiveFormsModule } from '@angular/forms';
+
+
 
 
 
@@ -41,6 +44,7 @@ import { OurServicesComponent } from './our-services/our-services.component';
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     AppRoutingModule,
     MatTableModule,
     MatToolbarModule,
@@ -57,6 +61,7 @@ import { OurServicesComponent } from './our-services/our-services.component';
     MatSelectModule,
     MatListModule,
     MatButtonModule,
+    ReactiveFormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

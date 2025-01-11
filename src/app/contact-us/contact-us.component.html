@@ -1,6 +1,6 @@
-<div>
+<div class="container">
   <div>
-    <h2>Kontakt</h2>
+    <h2>Kontaktinformationen</h2>
     <mat-list>
       <mat-list-item style="height: fit-content">
         <p>
@@ -13,9 +13,8 @@
         </p>
       </mat-list-item>
     </mat-list>
-  </div>
-  <div>
-    <h3>Öffnungszeiten</h3>
+
+    <h2>Öffnungszeiten</h2>
     <mat-list>
       <mat-list-item style="height: fit-content">
         <p>Montag - Freitag: 8:00 - 18:00</p>
@@ -35,10 +34,49 @@
       </mat-list-item>
     </mat-list>
   </div>
+
   <div>
     <h2>Kontaktformular</h2>
-    <form>
+    <form novalidate [formGroup]="cform" #formular="ngForm">
+      <p>
+        <mat-form-field class="mat-form-field" appearance="outline">
+          <mat-label>Ihre Name</mat-label>
+          <input matInput formControlName="name" required type="text" />
+        </mat-form-field>
+      </p>
+      <p>
+        <mat-form-field class="mat-form-field" appearance="outline">
+          <mat-label>Ihre E-Mail</mat-label>
+          <input matInput formControlName="email" required type="email" />
+        </mat-form-field>
+      </p>
 
+      <p>
+        <mat-form-field class="mat-form-field" appearance="outline">
+          <mat-label>Betreff</mat-label>
+          <input matInput formControlName="subject" required type="text" />
+        </mat-form-field>
+      </p>
+      <p>
+        <mat-form-field class="mat-form-field" appearance="outline">
+          <mat-label>Ihre Nachricht</mat-label>
+          <textarea
+            class="textarea"
+            matInput
+            formControlName="message"
+            required
+          ></textarea>
+        </mat-form-field>
+      </p>
+
+      <button
+        mat-raised-button
+        color="primary"
+        type="submit"
+        [disabled]="!cform.valid"
+      >
+        Senden
+      </button>
     </form>
   </div>
 </div>
