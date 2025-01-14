@@ -1,6 +1,8 @@
 import { Component, ViewChild, viewChild } from '@angular/core';
 import { FormBuilder, FormGroup, NgForm } from '@angular/forms';
 import { Formular } from '../shared/formular';
+import { ContactUsService } from '../services/contact-us.service';
+
 
 @Component({
   selector: 'app-contact-us',
@@ -16,7 +18,7 @@ export class ContactUsComponent {
 
   @ViewChild('formular') formularDirective!: NgForm;
 
-  constructor(private fb: FormBuilder) {
+  constructor(private fb: FormBuilder, private contactService: ContactUsService) {
     this.createForm()
   }
 
@@ -30,7 +32,16 @@ export class ContactUsComponent {
   }
 
   onSubmit() {
-    this.formularDirective.reset()
+    this.cformular = this.cform.value
+    this.contactService.postFormular(this.cformular).subscribe(
+      (data) => {
+        console.log('Success!', data)
+      },
+      error => {
+        console.error('Error!', error)
+      }
+    )
+    // this.formularDirective.reset()
   }
 
 }

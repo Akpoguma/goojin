@@ -15,7 +15,10 @@ app.post('/send-email', async (req, res) => {
       service: 'gmail', // Or your email provider
       auth: {
         user: 'akpogumaisaacdestiny1@gmail.com', // Replace with your email
-        pass: 'Akpoguma!12011998', // Replace with your email password or app password
+        pass: 'ufid ycil exzn hlyd', // Replace with your email password or app password
+      },
+      tls: {
+        rejectUnauthorized: false, // Allow insecure connections (required for some environments)
       },
     });
 

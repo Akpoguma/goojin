@@ -18,7 +18,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { ReactiveFormsModule } from '@angular/forms';
 
 
-
+import { API } from './shared/api';
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -30,6 +30,15 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { OurServicesComponent } from './our-services/our-services.component';
 
+
+import { ContactUsService } from './services/contact-us.service';
+import { ImpressumComponent } from './impressum/impressum.component';
+import { DatenschutzComponent } from './datenschutz/datenschutz.component';
+import { AGBComponent } from './agb/agb.component';
+import { ReferenzenComponent } from './referenzen/referenzen.component';
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -39,6 +48,10 @@ import { OurServicesComponent } from './our-services/our-services.component';
     ContactUsComponent,
     AboutUsComponent,
     OurServicesComponent,
+    ImpressumComponent,
+    DatenschutzComponent,
+    AGBComponent,
+    ReferenzenComponent,
     
 
   ],
@@ -63,7 +76,10 @@ import { OurServicesComponent } from './our-services/our-services.component';
     MatButtonModule,
     ReactiveFormsModule,
   ],
-  providers: [],
+  providers: [
+    ContactUsService,
+    { provide:'API', useValue: API }
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
