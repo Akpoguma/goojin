@@ -97,7 +97,7 @@ button.mat-button:hover {
     background-color: #561c07;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
     .box-container {
         grid-template-columns: 1fr;
     }
