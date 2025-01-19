@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { NgModule, isDevMode } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -36,6 +36,7 @@ import { ImpressumComponent } from './impressum/impressum.component';
 import { DatenschutzComponent } from './datenschutz/datenschutz.component';
 import { AGBComponent } from './agb/agb.component';
 import { ReferenzenComponent } from './referenzen/referenzen.component';
+import { ServiceWorkerModule } from '@angular/service-worker';
 
 
 
@@ -75,6 +76,12 @@ import { ReferenzenComponent } from './referenzen/referenzen.component';
     MatListModule,
     MatButtonModule,
     ReactiveFormsModule,
+    ServiceWorkerModule.register('ngsw-worker.js', {
+      enabled: !isDevMode(),
+      // Register the ServiceWorker as soon as the application is stable
+      // or after 30 seconds (whichever comes first).
+      registrationStrategy: 'registerWhenStable:30000'
+    }),
   ],
   providers: [
     ContactUsService,
