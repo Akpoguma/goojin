@@ -1,4 +1,10 @@
-div {
+/* .continer{
+    display: flex;
+    padding: 20px;
+} */
+
+.div {
+    
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
