@@ -6,6 +6,25 @@
     background-color: #f0f0f0;
 }
 
+.welcome-message {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.welcome-message h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.welcome-message p {
+    font-size: 1.2em;
+    color: #555;
+    text-align: justify;
+    font-style: italic;
+}
+
 .image-container {
     width: 100%;
     max-width: 1200px;
@@ -71,7 +90,7 @@ p {
 }
 
 .stars {
-    color: rgb(27, 26, 24);
+    color: gold;
     font-size: 1.5em;
     margin-bottom: 10px;
     text-align: center;
@@ -94,10 +113,10 @@ button.mat-button a {
 }
 
 button.mat-button:hover {
-    background-color: #561c07;
+    background-color: #582606;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
     .box-container {
         grid-template-columns: 1fr;
     }

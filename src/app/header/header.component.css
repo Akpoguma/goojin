@@ -43,6 +43,7 @@ p{
     color: #333;
     margin: 0;
     font-size: 1.2em;
+    font-style: italic;
 }
 
 @media (max-width: 1024px) {
