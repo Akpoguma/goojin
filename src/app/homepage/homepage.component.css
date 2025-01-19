@@ -77,6 +77,26 @@ p {
     text-align: center;
 }
 
+button.mat-button {
+    background-color: rgb(143, 14, 14);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+button.mat-button a {
+    color: white;
+    text-decoration: none;
+}
+
+button.mat-button:hover {
+    background-color: #561c07;
+}
+
 @media (max-width: 768px) {
     .box-container {
         grid-template-columns: 1fr;
