@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1737366347359,
+  "timestamp": 1737366825893,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main-EWQPJEXG.js",
+        "/main-DARVBBNJ.js",
         "/manifest.webmanifest",
         "/polyfills-FFHMD2TL.js",
         "/styles-ME5JIPAL.css"
@@ -59,8 +59,8 @@
     "/icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
     "/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
     "/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
-    "/index.html": "12db917f59b98a640672b4849ca1be5b2677f2d4",
-    "/main-EWQPJEXG.js": "7163f6c9f08de1532863f815c30478791508c1ed",
+    "/index.html": "8a48a89a05f1a9ef76895197843f544f02acbfbd",
+    "/main-DARVBBNJ.js": "bc41c264d9ee57724ae0f1c85a0ef6fb3294a966",
     "/manifest.webmanifest": "02a2f371834c09f5c2e46bf45d880b1c975b0353",
     "/polyfills-FFHMD2TL.js": "f49b49a155bc7d192db62a4c15d0a612b460a667",
     "/styles-ME5JIPAL.css": "28e744e62518f073ab70549134b21ea226066abf"
