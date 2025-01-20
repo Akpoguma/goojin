@@ -1,7 +1,4 @@
-/* .continer{
-    display: flex;
-    padding: 20px;
-} */
+
 
 .div {
     
@@ -24,6 +21,7 @@ h2 {
 
 p {
     font-size: 1.1em;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
     color: #555;
     margin-bottom: 20px;
     text-align: justify;
