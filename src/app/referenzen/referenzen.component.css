@@ -1,0 +1,16 @@
+.reference-container{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: rgb(143, 14, 14);
+    text-align: center;
+}
+
+.reference-container mat-list {
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+
+}
