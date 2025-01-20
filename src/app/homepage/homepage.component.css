@@ -46,7 +46,7 @@
 }
 
 .welcome-content {
-    border: 2px solid white;
+    /* border: 2px solid white; */
     padding: 20px;
     border-radius: 8px;
     background-color: rgba(0, 0, 0, 0.5); 
