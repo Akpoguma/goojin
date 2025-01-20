@@ -48,7 +48,6 @@ p{
 
 @media (max-width: 768px) {
     .header-container {
-        max-width: 90%;
         flex-direction: column;
         text-align: center;
         align-items: flex-start;
@@ -57,6 +56,7 @@ p{
 
     .header-container > div:last-child {
         justify-content: center;
+        max-width: 90%;
         width: 100%;
         gap: 20px;
     }
