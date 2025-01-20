@@ -7,20 +7,51 @@
 }
 
 .welcome-message {
+    position: relative;
     text-align: center;
     margin-bottom: 30px;
+    background-size: 100%;
+    background-position: center;
+    filter: brightness(100%);
+    border: 4px solid white;
+    border-radius: 8px;
+    overflow: hidden; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.welcome-message::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../../assets/homepage/moving company1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: brightness(60%);
+    z-index: -1; /* Place the image behind the text */
 }
 
 .welcome-message h1 {
+    text-align: center;
     font-size: 2.5em;
-    color: #333;
+    color: white;
     margin-bottom: 10px;
     text-align: center;
+    
+
+
+}
+
+.welcome-message h1 p {
+    border: 4px solid white;
 }
 
 .welcome-message p {
     font-size: 1.2em;
-    color: #555;
+    color: white;
     text-align: justify;
     font-style: italic;
 }
@@ -116,7 +147,7 @@ button.mat-button:hover {
     background-color: #582606;
 }
 
-@media (max-width:  2160px) {
+@media (max-width: 2160px) {
     .box-container {
         grid-template-columns: 1fr;
     }
