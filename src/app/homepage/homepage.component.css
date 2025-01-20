@@ -14,7 +14,7 @@
     background-position: center;
     filter: brightness(100%);
     border-radius: 8px;
-    overflow: hidden; 
+    overflow: hidden;
     height: 400px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
@@ -31,17 +31,19 @@
     background-position: center;
     background-repeat: no-repeat;
     filter: brightness(70%);
-    z-index: -1; /* Place the image behind the text */
+    z-index: -1;
 }
 
 .welcome-message h1 {
     text-align: center;
+    font-family:'Times New Roman', Times, serif;
+
     font-weight: bolder;
-    font-size: 2.5em;
+    font-size: 3.0em;
     color: white;
     margin-bottom: 10px;
     text-align: center;
-    
+
 
 
 }
@@ -50,14 +52,14 @@
     /* border: 2px solid white; */
     padding: 20px;
     border-radius: 8px;
-    background-color: rgba(0, 0, 0, 0.5); 
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 
 
 .welcome-message p {
-    font-size: 1.2em;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5em;
+    font-family:'Times New Roman', Times, serif;
     color: white;
     text-align: justify;
     font-style: italic;
@@ -102,15 +104,23 @@ img {
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+.box-header{
+    border:3px solid rgb(143, 14, 14);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+
+    border-radius: 10px;
+}
 
 h1 {
     font-size: 2em;
+    font-family:'Times New Roman', Times, serif;
     margin-bottom: 10px;
     color: rgb(143, 14, 14);
 }
 
 h2 {
     font-size: 2.5em;
+    font-family:'Times New Roman', Times, serif;
     color: #333;
     margin-bottom: 20px;
     text-align: center;
@@ -124,7 +134,7 @@ h3 {
 
 p {
     font-size: 1em;
-    color:black;
+    color: black;
     margin-bottom: 10px;
     text-align: justify;
 }
@@ -156,13 +166,18 @@ button.mat-button:hover {
     background-color: #582606;
 }
 
-button.contact{
-    background: rgb(143, 14, 14);
-    color: white;
+ button.contact {
+    text-decoration: none;
+    justify-content: center;
+    text-align: justify;
+    align-content: center;
+    border: 1.5px solid rgb(143, 14, 14);
+    color: rgb(143, 14, 14);
     height: fit-content;
     width: fit-content;
-    border-radius: 2px;
-    font-weight:bold ;
+    border-radius: 10px;
+    font-weight: bold;
+    text-decoration: none;
 }
 
 @media (max-width: 1200px) {

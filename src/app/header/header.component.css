@@ -9,47 +9,50 @@
     gap: 200px;
 }
 
-.header-container > div:first-child {
+.header-container>div:first-child {
     display: flex;
     flex-direction: column;
-    
+
 }
 
-.header-container > div:last-child {
+.header-container>div:last-child {
     display: flex;
     gap: 100px;
 }
 
-.header-container > div:last-child > a {
+.header-container>div:last-child>a {
     text-decoration: none;
     color: #333;
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 1.5em;
+    font-family: 'Times New Roman', Times, serif;
+
 }
 
-.header-container > div:last-child > a:hover{
-    color:  rgb(143, 14, 14);
+.header-container>div:last-child>a:hover {
+    color: rgb(143, 14, 14);
     text-decoration: underline;
 
 }
 
-h1  {
+h1 {
     margin-left: 10px;
     font-size: 2em;
-    color:  rgb(143, 14, 14)
-
+    color: rgb(143, 14, 14)
 }
-p{
+
+p {
     color: white;
-    color:   rgb(143, 14, 14);
+    color: rgb(143, 14, 14);
     margin: 0;
-    font-size: 1.2em;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
     font-style: italic;
 }
 
-.header-container > div:last-child > a.active {
+.header-container>div:last-child>a.active {
     background: rgb(143, 14, 14);
-    border-radius:3px;
+    border-radius: 3px;
     color: white;
 }
 
@@ -60,14 +63,14 @@ p{
         gap: 20px;
     }
 
-    .header-container > div:last-child {
+    .header-container>div:last-child {
         justify-content: center;
         text-align: center;
         width: 90vw;
         gap: 20px;
     }
 
-    .header-container > div:last-child > a {
+    .header-container>div:last-child>a {
         width: 90vw;
         font-size: 1em;
     }
