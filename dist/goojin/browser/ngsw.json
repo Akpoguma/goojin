@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1737373600692,
+  "timestamp": 1737374331153,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main-IQSPBOJS.js",
+        "/main-4HNBP4AG.js",
         "/manifest.webmanifest",
         "/polyfills-FFHMD2TL.js",
         "/styles-ME5JIPAL.css"
@@ -60,8 +60,8 @@
     "/icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
     "/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
     "/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
-    "/index.html": "4226a82634868fc32972cdae7a3aadd5463d046d",
-    "/main-IQSPBOJS.js": "d5459b3822fadbdcc2ef23794b36fde0e09e559c",
+    "/index.html": "60b3d988c5247c6cb7a48655baaa82271db39381",
+    "/main-4HNBP4AG.js": "90624409288003962f53de186288a75c3e37e81b",
     "/manifest.webmanifest": "02a2f371834c09f5c2e46bf45d880b1c975b0353",
     "/media/moving company1-CI7VZAUX.jpg": "f061e08fda1b78f5361eb0f584bf1f56862bca57",
     "/polyfills-FFHMD2TL.js": "f49b49a155bc7d192db62a4c15d0a612b460a667",
