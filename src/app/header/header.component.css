@@ -1,6 +1,6 @@
 .header-container {
     display: flex;
-    background-color: rgb(214, 214, 32);
+    background-color: rgb(246, 246, 31);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 2px;
     margin-bottom: 10px;
@@ -12,6 +12,7 @@
 .header-container > div:first-child {
     display: flex;
     flex-direction: column;
+    
 }
 
 .header-container > div:last-child {
@@ -26,18 +27,29 @@
     font-size: 1.2em;
 }
 
+.header-container > div:last-child > a:hover{
+    color:  rgb(143, 14, 14)
+
+}
+
 h1  {
-    margin: 0;
+    margin-left: 10px;
     font-size: 2em;
-    color: #333;
+    color:  rgb(143, 14, 14)
 
 }
 p{
     color: white;
-    color: #333;
+    color:   rgb(143, 14, 14);
     margin: 0;
     font-size: 1.2em;
     font-style: italic;
+}
+
+.header-container > div:last-child > a.active {
+    background: rgb(143, 14, 14);
+    border-radius:3px;
+    color: white;
 }
 
 @media (max-width: 1200px) {
