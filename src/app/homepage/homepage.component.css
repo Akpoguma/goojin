@@ -13,7 +13,6 @@
     background-size: 100%;
     background-position: center;
     filter: brightness(100%);
-    border: 4px solid white;
     border-radius: 8px;
     overflow: hidden; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
@@ -30,7 +29,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    filter: brightness(60%);
+    filter: brightness(70%);
     z-index: -1; /* Place the image behind the text */
 }
 
@@ -147,7 +146,7 @@ button.mat-button:hover {
     background-color: #582606;
 }
 
-@media (max-width: 2160px) {
+@media (max-width: 1200px) {
     .box-container {
         grid-template-columns: 1fr;
     }
