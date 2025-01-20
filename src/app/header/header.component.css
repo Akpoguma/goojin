@@ -56,7 +56,6 @@ p{
 
     .header-container > div:last-child {
         justify-content: center;
-        max-width: 90%;
         width: 100%;
         gap: 20px;
     }
