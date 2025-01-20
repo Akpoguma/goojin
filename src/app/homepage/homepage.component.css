@@ -154,6 +154,15 @@ button.mat-button:hover {
     background-color: #582606;
 }
 
+button.contact{
+    background: rgb(143, 14, 14);
+    color: white;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 2px;
+    font-weight:bold ;
+}
+
 @media (max-width: 1200px) {
     .box-container {
         grid-template-columns: 1fr;

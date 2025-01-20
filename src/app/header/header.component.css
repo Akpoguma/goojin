@@ -28,7 +28,8 @@
 }
 
 .header-container > div:last-child > a:hover{
-    color:  rgb(143, 14, 14)
+    color:  rgb(143, 14, 14);
+    text-decoration: underline;
 
 }
 
