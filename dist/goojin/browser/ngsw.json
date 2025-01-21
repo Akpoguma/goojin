@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1737404587738,
+  "timestamp": 1737451921565,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -60,7 +60,7 @@
     "/icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
     "/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
     "/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
-    "/index.html": "62d60a17400566d71b071ed0e05c734690cdd971",
+    "/index.html": "fbbaa352fbf2de3cafa0c4cb5a8fd6e876da1317",
     "/main-VR67BXMD.js": "2e9a38de663984b123fa3d104f4219a5b3ab9d6b",
     "/manifest.webmanifest": "02a2f371834c09f5c2e46bf45d880b1c975b0353",
     "/media/moving company1-CI7VZAUX.jpg": "f061e08fda1b78f5361eb0f584bf1f56862bca57",
